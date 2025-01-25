@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
-import ThemeCom from "@/components/ThemeCom";
+import Header from "../components/Header";
+import ThemeCom from "../components/ThemeCom";
 import { ClerkProvider } from "@clerk/nextjs";
 const inter = Inter({
   variable: "--font-inter", 
